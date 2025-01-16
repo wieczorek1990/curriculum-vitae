@@ -1,0 +1,125 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+\usepackage{silence}
+\WarningFilter{latex}{You have requested package}
+
+\moderncvstyle{casual}
+\moderncvcolor{black}
+
+\usepackage[scale=0.85,footskip=47.152pt]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{pifont}
+\usepackage{tabularx}
+
+\newcommand{\diamondx}{\ding{118}~}
+\newcommand{\diamondc}{
+    \vspace*{\fill}
+    \begin{center}
+    \huge
+    \diamondx
+    \end{center}
+    \vspace*{\fill}
+}
+\newcommand{\br}{\hfill \newline}
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\name{Łukasz}{Wieczorek}
+\title{Curriculum Vitae}
+\address{Spichrzowa 7}{62-045~Pniewy}{Poland}
+\phone[mobile]{+48~609~157~235}
+\email{luke@soiree.tech}
+\homepage{soiree.tech}
+\social[github]{wieczorek1990}
+\extrainfo{
+  \href{https://medium.com/@wieczorek1990}{Medium}
+  \footsymbol
+  \href{https:/blog.soiree.tech}{Blog}
+}
+\photo[64pt][0pt]{picture}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Education}
+\cvitem{2013 -- 2014}{Master of Science, Computing, Faculty of Computing, Poznań University of Technology, Grade A}
+\cvitem{2009 -- 2013}{Bachelor of Science, E-commerce, Faculty of Computing, Poznań University of Technology, Grade A}
+
+\section{Master's Thesis}
+\cvitem{Title}{\emph{Recognition and Digitalization of Handwritten Musical Notation}}
+\cvitem{Solution stack}{\textsc C++, Gamera, ImageMagick, MuseScore, OpenCV, OpenSound Control, Python, Qt}
+
+\section{Experience}
+\cvitem{July~2012 and October~2012{\br}--{\br}February~2013}{PHP Backend Developer, Poznań University of Technology, Poznań{\br}\href{https://moodle.org/}Solution stack: {\textsc Apache, Jasper Reports, Java, PHP, PHPUnit, PostgreSQL, Subversion}}
+\cvitem{November~2014{\br}--{\br}September~2017}{Android \& Backend Developer, Apptension, Poznań{\br}Solution stack: {\textsc Android, Django, Docker, Flask, Git, Jenkins}}
+\cvitem{May~2018{\br}--{\br}October~2018}{Python Software Engineer, Egnyte Poland, Poznań{\br}Solution stack: {\textsc ant, Confluence, Git, GitLab, JIRA, Jenkins, Kibana, Python, WIX Toolset}}
+\cvitem{April~2019{\br}--{\br}August~2019}{Python Backend Developer, Analytics, Luxembourg{\br}Solution stack: {\textsc Django, Git, JavaScript, Python, React}}
+\cvitem{January~2020{\br}--{\br}February~2020}{Python Backend Developer, Le Polish Bureau, Łódź{\br}Solution stack: {\textsc Flask, Git, JavaScript, Locust, Python, Sanic}}
+\cvitem{December~2020{\br}--{\br}June~2021}{Python Backend Developer, User.com, Warsaw{\br}Solution stack: {\textsc Django, Git, JavaScript, Python, Vue.js}}
+\cvitem{January~2022}{Software Engineer, Soiree Łukasz Wieczorek, Pniewy{\br}Solution stack: {\textsc Django, Git, JavaScript, Python, jQuery}}
+\cvitem{June~2022{\br}--{\br}November~2022}{Python Backend Developer, Stermedia, Wrocław{\br}Solution stack: {\textsc API Blueprint, Django, Git, Python}}
+\cvitem{September~2023{\br}--{\br}December~2023}{Python Backend Developer, Stermedia, Wrocław{\br}Solution stack: {\textsc Django, Git, Python}}
+\cvitem{July~2024{\br}--{\br}September~2024}{Fullstack Developer, Igor Miazek Techs, Oleśnica{\br}Solution stack: {\textsc Docker, Git, JavaScript, Ruby, Ruby on Rails, Vue.js}}
+
+\diamondc
+\newpage
+
+\section{Skills}
+\subsection{Programming languages}
+\cvitem{Main}{\textsc Python}
+\cvitem{Experienced}{\textsc Java, JavaScript, PHP, Ruby, Shell, SQL}
+\cvitem{Hobby}{\textsc Kotlin, Rust, Swift}
+\subsection{Experience time}
+\cvitem{Python}{\textsc four years}
+\cvitem{Java}{\textsc one year}
+\cvitem{PHP}{\textsc six months}
+\cvitem{Ruby}{\textsc three months}
+\subsection{Programming frameworks}
+\cvitem{Main}{\textsc Django}
+\cvitem{Experienced}{\textsc Bootstrap, Flask, jQuery, Ruby on Rails}
+
+\subsection{Preferred tools}
+\cvitem{E-mails}{Google Gmail}
+\cvitem{Video conferences}{Google Meet}
+\cvitem{Tasks}{Atlassian Jira}
+\cvitem{Chats}{Salesforce Slack}
+\cvitem{Git}{Atlassian BitBucket}
+\cvitem{Text editors}{VIM}
+\cvitem{Integrated Development Environments}{JetBrains editors}
+
+\subsection{Other}
+\cvitem{Operating Systems}{\textsc Alpine, Debian, Fedora, MacOS, Red Hat, Ubuntu, Windows}
+\cvitem{Topics}{\textsc API design, chatbots, databases, scripts, unit testing, virtualization}
+\cvitem{Languages}{\textsc CSS, CSV, HTML, XML}
+\cvitem{Programs}{\textsc Android Studio, Docker, Eclipse, gedit, httpie, Klavaro, PyCharm, Postgres.app, VIM, VScode, Xcode}
+
+\section{Languages}
+\cvitem{Polish}{Mother tongue}
+\cvitem{English}{Professional working proficiency}
+\cvitem{German}{Elementary proficiency}
+
+\section{Interests}
+\cvitem{}{
+  \setlength{\tabcolsep}{26pt}
+  \begin{tabularx}{\linewidth}{lllll}
+  \diamondx computing &
+  \diamondx guitar &
+  \diamondx music\\
+  \diamondx running &
+  \diamondx typography &
+  \diamondx video games
+  \end{tabularx}
+}
+
+\section{About me}
+\cvitem{}{
+\emph{
+I'm a silent programmer with love of scripting languages like {\textsc Python}.\newline
+My Github has already over 175 repositories, mostly own work with some spice of collaboration.\newline
+I like to teach and learn programming.
+}
+}
+
+\diamondc
+
+\end{document}
