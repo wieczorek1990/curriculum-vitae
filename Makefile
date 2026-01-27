@@ -17,3 +17,6 @@ try: build open
 publish:
 	cp Curriculum\ Vitae.pdf ../cv/
 	cd ../cv/ && git commit --amend && git push --force origin main
+
+desktop:
+	mv 'Curriculum Vitae.pdf' ~/Desktop/
