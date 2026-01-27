@@ -3,6 +3,9 @@ build:
 	pdflatex main.tex 2 > /dev/null
 	mv main.pdf Curriculum\ Vitae.pdf
 
+desktop:
+	mv 'Curriculum Vitae.pdf' ~/Desktop/
+
 logs:
 	pdflatex main.tex
 
@@ -13,10 +16,3 @@ open:
 	open Curriculum\ Vitae.pdf
 
 try: build open
-
-publish:
-	cp Curriculum\ Vitae.pdf ../cv/
-	cd ../cv/ && git commit --amend && git push --force origin main
-
-desktop:
-	mv 'Curriculum Vitae.pdf' ~/Desktop/
