@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 # Installs dependencies.
 
 sudo tlmgr update --self
