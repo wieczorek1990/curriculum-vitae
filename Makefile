@@ -1,18 +1,12 @@
 
 build:
-	pdflatex main.tex 2 > /dev/null
-	mv main.pdf Curriculum\ Vitae.pdf
-
-desktop:
-	mv 'Curriculum Vitae.pdf' ~/Desktop/
-
+	pdflatex main.tex >/dev/null
 logs:
 	pdflatex main.tex
-
+desktop:
+	cp main.pdf ~/Desktop/Curriculum\ Vitae.pdf
 clean:
-	rm -f main.aux main.log main.out main.pdf Curriculum\ Vitae.pdf
-
+	rm -f main.aux main.log main.out main.pdf
 open:
-	open Curriculum\ Vitae.pdf
-
+	open main.pdf
 try: build open
