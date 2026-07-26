@@ -1,6 +1,10 @@
 # Curriculum Vitae
 
 ## Installation
+Download PKG from TUG:
+* [BasicTeX](https://www.tug.org/mactex/morepackages.html)
+* [MacTeX](https://www.tug.org/mactex/)
+
 ### Dependencies
 * BasicTeX with the following:
 ```sh
